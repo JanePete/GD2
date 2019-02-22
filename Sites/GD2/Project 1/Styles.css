@@ -1,0 +1,50 @@
+body {
+    margin: 100px;
+}
+
+h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #260648;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #6B4B8C;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: left;
+}
+
+div {
+    margin: 40px;
+}
+
+blockquote {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: italic;
+    font-size: 30px;
+    color: #6B4B8C;
+}
+
+a {
+    color: #EE3595;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+}
+
+figcaption {
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+}
+
+.article-meta {
+    display: inline-block;
+}
+
+*/image1 from https: //www.nytimes.com/2018/11/30/science/animal-intelligence-octopus-cephalopods.html/*
+*/image2 from https: //www.foxnews.com/science/baby-octopuses-at-georgia-aquarium-unexpectedly-hatch/*
