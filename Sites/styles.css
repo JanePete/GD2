@@ -50,7 +50,7 @@ img {
 .container {
     width: 675px;
     height: 4400px;
-    background: #E0ECF8
+    background: #E0ECF8 background-image: linear-gradient(to right, red, yellow);
 }
 
 div.container {
