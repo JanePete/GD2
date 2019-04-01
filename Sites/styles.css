@@ -37,6 +37,7 @@ figcaption {
     position: relative;
     left: 350px;
     bottom: 130px;
+    max-width: 35ch;
 }
 
 img {
@@ -58,4 +59,9 @@ div.container {
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+}
+
+div.underline {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
 }
