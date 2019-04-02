@@ -1,5 +1,5 @@
 body {
-    @media (max width: 1280px) @media (min-width: 375px) height: 4000px;
+    @media (max width: 1280px) @media (min-width: 375px) height: 4600px;
     background: linear-gradient(#ebf0fa, #adc2eb);
 }
 
@@ -66,7 +66,7 @@ div.container {
     padding-bottom: 50px;
     padding-left: 50px;
     width: 375px;
-    height: 4400px;
+    height: 4600px;
 }
 
 div.underline {
