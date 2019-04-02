@@ -13,7 +13,8 @@ h1 {
 
 .container {
     margin: auto;
-    max-width: 800px;
+    max-width: 1280px;
+    min-width: 375px;
 }
 
 h2 {
