@@ -18,13 +18,13 @@ h1 {
 }
 
 h2 {
-    font-family: 'DIN';
+    font-family: 'Garamond';
     color: #424242;
     font-weight: normal;
     font-size: 18px;
     text-align: left;
     position: relative;
-    max-width: 40ch;
+    max-width: 45ch;
 }
 
 h3 {
@@ -34,7 +34,7 @@ h3 {
     color: #0B243B;
     position: relative;
     left: 180px;
-    top: 40px;
+    top: 45px;
 }
 
 figcaption {
