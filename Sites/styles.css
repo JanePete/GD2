@@ -48,10 +48,15 @@ figcaption {
     max-width: 30ch;
 }
 
-div.a {
+.a {
     text-indent: 20px;
 }
 
+.laptop {
+    margin: auto;
+    max-width: 1280px;
+    min-width: 375px;
+}
 
 img {
     width: 160px;
@@ -60,7 +65,7 @@ img {
     position: relative;
 }
 
-div.container {
+.container {
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
@@ -69,7 +74,7 @@ div.container {
     height: 4600px;
 }
 
-div.underline {
+.underline {
     text-decoration-line: underline;
     text-decoration-style: wavy;
 }
