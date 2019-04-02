@@ -1,5 +1,6 @@
 body {
-    @media (max width: 1280px) @media (min-width: 357 px)
+    @media (max width: 1280px) @media (min-width: 375px) height: 3000px;
+    background: linear-gradient(#ebf0fa, #adc2eb);
 }
 
 h1 {
@@ -10,6 +11,11 @@ h1 {
     text-align: center;
 }
 
+.container {
+    margin: auto;
+    max-width: 800px;
+}
+
 h2 {
     font-family: 'DIN';
     color: #424242;
@@ -17,7 +23,6 @@ h2 {
     font-size: 18px;
     text-align: left;
     position: relative;
-    left: 150px;
     max-width: 45ch;
 }
 
@@ -27,7 +32,7 @@ h3 {
     font-size: 18px;
     color: #0B243B;
     position: relative;
-    left: 350px;
+    left: 180px;
     top: 40px;
 
 }
@@ -37,11 +42,10 @@ figcaption {
     color: #424242;
     font-weight: normal;
     font-size: 12px;
-    max-width: 40ch;
     position: relative;
-    left: 350px;
+    left: 180px;
     bottom: 130px;
-    max-width: 35ch;
+    max-width: 30ch;
 }
 
 img {
@@ -49,13 +53,7 @@ img {
     height: auto;
     vertical-align: text-top;
     position: relative;
-    left: 150px;
-}
 
-.container {
-    width: 675px;
-    height: 4400px;
-    background: #E0ECF8
 }
 
 div.container {
@@ -63,6 +61,9 @@ div.container {
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+    width: 375px;
+    height: 4400px;
+
 }
 
 div.underline {
