@@ -1,60 +1,84 @@
-body {
-    background-color: #ccf2ff;
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.closer {
+    height: 0px;
+    white-space: nowrap;
+
+}
+
+.container {
     width: 375px;
-    height: relative;
+    height: 400px;
+    background: #ccf2ff
+}
 
-    h1 {
-        width: 30%;
-    }
+div.container {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
 
-    h2 {
-        font-family: helvetica;
-        font-size: 18px;
-        line-height: 10px;
-        text-align: left;
-        position: relative;
-    }
+h1 {
+    width: 40%;
+}
 
-    h3 {
+h2 {
+    font-family: helvetica;
+    font-size: 18px;
+    line-height: 10px;
+    text-align: left;
+    position: relative;
+}
+
+h3 {
+    font-family: helvetica;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+    max-width: 37ch;
+
+    a {
         font-family: helvetica;
         font-size: 12px;
         line-height: 20px;
-        text-align: left;
-        position: relative;
-        max-width: 45ch;
+
+    }
+
+    .container {
+        width: 375px;
+        height: 400px;
+        background: #E0ECF8
+    }
+
+    div.container {
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+    }
+
+    .login,
+    .register {
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        width: 100%;
+        font-size: 30px;
+        font-family: 'Helvetica'
 
         a {
-            font-family: helvetica;
-            font-size: 12px;
-            line-height: 20px;
-
+            text-decoration: none;
+            color: black;
         }
-
-        .container {
-            width: 375px;
-            height: 400px;
-            background: #E0ECF8
-        }
-
-        div.container {
-            padding-top: 50px;
-            padding-right: 50px;
-            padding-bottom: 50px;
-            padding-left: 50px;
-        }
-
-        .login,
-        .register {
-            z-index: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-grow: 1;
-            width: 100%;
-            font-size: 30px;
-            font-family: 'Helvetica'
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
