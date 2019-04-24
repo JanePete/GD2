@@ -1,0 +1,60 @@
+body {
+    background-color: #ccf2ff;
+    width: 375px;
+    height: relative;
+
+    h1 {
+        width: 30%;
+    }
+
+    h2 {
+        font-family: helvetica;
+        font-size: 18px;
+        line-height: 10px;
+        text-align: left;
+        position: relative;
+    }
+
+    h3 {
+        font-family: helvetica;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: left;
+        position: relative;
+        max-width: 45ch;
+
+        a {
+            font-family: helvetica;
+            font-size: 12px;
+            line-height: 20px;
+
+        }
+
+        .container {
+            width: 375px;
+            height: 400px;
+            background: #E0ECF8
+        }
+
+        div.container {
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+            padding-left: 50px;
+        }
+
+        .login,
+        .register {
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            width: 100%;
+            font-size: 30px;
+            font-family: 'Helvetica'
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
