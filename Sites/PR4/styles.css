@@ -8,16 +8,10 @@
     clear: both;
 }
 
-.closer {
-    height: 0px;
-    white-space: nowrap;
-
-}
-
 .container {
     width: 375px;
     height: 400px;
-    background: #ccf2ff
+    background: #DEEDFC
 }
 
 div.container {
@@ -31,12 +25,100 @@ h1 {
     width: 40%;
 }
 
+&:active {
+    position: relative;
+    top: 1px;
+}
+
+.button {
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+&.outline {
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+&:before,
+&:after,
+.lines:before,
+.lines:after {
+    background-color: black;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: transform 300ms;
+    width: 100%;
+}
+
+&:before {
+    bottom: 0;
+    top: auto;
+}
+
+.lines {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+&:before,
+&:after {
+    height: 100%;
+    width: 2px;
+}
+
+
+&:after {
+    left: auto;
+    right: 0;
+}
+
+&:hover,
+&:before {
+    transform: translateX(-101%);
+}
+
+&:after {
+    transform: translateX(101%);
+}
+
+.lines {
+    before transform: translateY(-101%);
+}
+
+.lines {
+    after transform: translateY(101%);
+}
+
+.button-holder {
+    padding-top: 150px;
+    text-align: left;
+}
+
 h2 {
     font-family: helvetica;
     font-size: 18px;
     line-height: 10px;
     text-align: left;
     position: relative;
+}
+
+a {
+    font-family: helvetica;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 h3 {
@@ -46,39 +128,22 @@ h3 {
     text-align: left;
     position: relative;
     max-width: 37ch;
+}
 
-    a {
-        font-family: helvetica;
-        font-size: 12px;
-        line-height: 20px;
+.container {
+    width: 375px;
+    height: 400px;
+    background: #E0ECF8
+}
 
-    }
+div.container {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
 
-    .container {
-        width: 375px;
-        height: 400px;
-        background: #E0ECF8
-    }
-
-    div.container {
-        padding-top: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        padding-left: 50px;
-    }
-
-    .login,
-    .register {
-        z-index: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-grow: 1;
-        width: 100%;
-        font-size: 30px;
-        font-family: 'Helvetica'
-
-        a {
-            text-decoration: none;
-            color: black;
-        }
+a {
+    text-decoration: none;
+    color: black;
+}
