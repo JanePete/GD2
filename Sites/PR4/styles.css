@@ -6,11 +6,22 @@
 
 .clearfix::after {
     clear: both;
+
+}
+
+.alternate {
+    font-size: 36px;
+    font-family: HelveticaNeue-Bold, Helvetica Neue;
+    font-weight: 700;
+}
+
+.transparent {
+    opacity: 0.59;
 }
 
 .container {
     width: 375px;
-    height: 400px;
+    height: 535px;
     background: #DEEDFC
 }
 
@@ -40,8 +51,7 @@ h1 {
 }
 
 &.outline {
-    color: white;
-    overflow: hidden;
+    color: #DEEDFC overflow: hidden;
     position: relative;
 }
 
@@ -113,17 +123,18 @@ h2 {
     line-height: 10px;
     text-align: left;
     position: relative;
+    letter-spacing: 1.5px;
 }
 
 a {
     font-family: helvetica;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
 }
 
 h3 {
     font-family: helvetica;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
     text-align: left;
     position: relative;
