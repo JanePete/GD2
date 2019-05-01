@@ -11,7 +11,7 @@
 
 .alternate {
     font-size: 36px;
-    font-family: HelveticaNeue-Bold, Helvetica Neue;
+    font-family: HelveticaNeue-Bold, "Helvetica Neue";
     font-weight: 700;
 }
 
@@ -36,10 +36,6 @@ h1 {
     width: 40%;
 }
 
-&:active {
-    position: relative;
-    top: 1px;
-}
 
 .button {
     display: inline-block;
@@ -50,71 +46,6 @@ h1 {
     transition: 300ms;
 }
 
-&.outline {
-    color: #DEEDFC overflow: hidden;
-    position: relative;
-}
-
-&:before,
-&:after,
-.lines:before,
-.lines:after {
-    background-color: black;
-    height: 2px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-&:before {
-    bottom: 0;
-    top: auto;
-}
-
-.lines {
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 0;
-}
-
-&:before,
-&:after {
-    height: 100%;
-    width: 2px;
-}
-
-
-&:after {
-    left: auto;
-    right: 0;
-}
-
-&:hover,
-&:before {
-    transform: translateX(-101%);
-}
-
-&:after {
-    transform: translateX(101%);
-}
-
-.lines {
-    before transform: translateY(-101%);
-}
-
-.lines {
-    after transform: translateY(101%);
-}
-
-.button-holder {
-    padding-top: 150px;
-    text-align: left;
-}
 
 h2 {
     font-family: helvetica;
