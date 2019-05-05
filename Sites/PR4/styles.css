@@ -46,6 +46,24 @@ h1 {
     transition: 300ms;
 }
 
+.bold {
+    font-weight: bold;
+    color: grey;
+
+}
+
+.space {
+    position: relative;
+    text-align: left;
+    padding: 30px;
+}
+
+.smallspace {
+    position: relative;
+    text-align: left;
+    padding: 8px;
+
+}
 
 h2 {
     font-family: helvetica;
