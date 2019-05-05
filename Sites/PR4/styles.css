@@ -21,7 +21,7 @@
 
 .container {
     width: 375px;
-    height: 535px;
+    height: 810px;
     background: #DEEDFC
 }
 
@@ -69,8 +69,6 @@ label {
     height: 30px
 }
 
-
-
 h2 {
     font-family: helvetica;
     font-size: 18px;
@@ -95,11 +93,6 @@ h3 {
     max-width: 37ch;
 }
 
-.container {
-    width: 375px;
-    height: 400px;
-    background: #E0ECF8
-}
 
 div.container {
     padding-top: 50px;
