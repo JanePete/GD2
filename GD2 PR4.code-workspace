@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "Sites"
+		},
+		{
+			"path": "SVG"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sites"
+	}
+}

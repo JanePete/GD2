@@ -1,0 +1,454 @@
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+h6 {
+    color: white;
+}
+
+.alternate {
+    font-size: 36px;
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue";
+}
+
+.transparent {
+    opacity: 0.59;
+}
+
+.transparentblack {
+    color: black;
+}
+
+.grey {
+    color: grey;
+    font-weight: normal;
+}
+
+img {
+    width: 250px;
+    margin: 40px;
+}
+
+.box {
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    background: black;
+    position: relative;
+    text-align: center;
+    opacity: 0.59;
+}
+
+.containerwhite {
+    width: 375px;
+    height: relative;
+    background: white;
+}
+
+.containerblue {
+    width: 375px;
+    height: 667px;
+    background: #DEEDFC
+}
+
+div.containerwhite {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+div.containerblue {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
+h1 {
+    width: 40%;
+    margin: 22px;
+    position: relative;
+}
+
+.bold {
+    font-weight: bold;
+    color: grey;
+}
+
+.blue {
+    opacity: 0.59;
+}
+
+.space {
+    position: relative;
+    text-align: left;
+    padding: 30px;
+}
+
+.smallspace {
+    position: relative;
+    text-align: left;
+    padding: 5px;
+    line-height: 5px;
+}
+
+label {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.submit {
+    background-color: #DEEDFC;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-family: helvetica;
+    font-size: 16px;
+    position: relative;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    font-family: helvetica;
+    font-size: 18px;
+    line-height: 10px;
+    text-align: left;
+    position: relative;
+    letter-spacing: 1.5px;
+    margin: 20px;
+    color: black;
+}
+
+a {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px;
+}
+
+h3 {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+    max-width: 37ch;
+    margin: 20px;
+    color: black;
+}
+
+h4 {
+    font-family: helvetica;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+    max-width: 37ch;
+    color: white;
+    position: relative;
+    margin: 20px;
+}
+
+.bluebox {
+
+    margin: 20px;
+    margin-left: 150px;
+    width: 200px;
+    height: 50px;
+    background: #DEEDFC;
+    position: relative;
+    text-align: center;
+}
+
+.bigbluebox {
+    margin: 20px;
+    width: 350px;
+    height: relative;
+    background: #DEEDFC;
+    position: relative;
+}
+
+.unbold {
+    font-weight: normal;
+}
+
+h5 {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+    max-width: 37ch;
+    margin-left: 50px;
+    margin-top: 0px;
+    color: grey;
+}
+
+div.container {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:375px) {
+    .containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    h2 {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+
+    h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    .containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    h5 {
+        margin-left: 40%;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    h2 {
+        font-size: 26px;
+        letter-spacing: 2.5px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    a {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .bigbluebox {
+        width: 70%;
+        height: relative;
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .box {
+        margin-left: 30%;
+        width: 50%;
+    }
+
+    .bluebox {
+        margin-left: 50%;
+        width: 40%;
+    }
+
+    img {
+        margin-left: 40%;
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    h5 {
+        margin-left: 40%;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    a {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .bigbluebox {
+        width: 70%;
+        height: relative;
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .box {
+        margin-left: 30%;
+        width: 50%;
+    }
+
+    .bluebox {
+        margin-left: 50%;
+        width: 40%;
+    }
+
+    img {
+        margin-left: 40%;
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+
+    .containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    h5 {
+        margin-left: 40%;
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    .containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    img {
+        margin-left: 40%;
+        width: 40%;
+    }
+
+    .box {
+        margin-left: 30%;
+        width: 50%;
+    }
+
+    .bluebox {
+        margin-left: 50%;
+        width: 40%;
+    }
+
+    a {
+        font-size: 24px;
+        line-height: 26px;
+        width: 150%;
+        text-align: center;
+    }
+
+    .closer {
+        width: 100%;
+    }
+
+    .bigbluebox {
+        width: 70%;
+        height: relative;
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
