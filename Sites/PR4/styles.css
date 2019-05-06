@@ -231,6 +231,11 @@ a {
         height: 100%;
     }
 
+    h3 {
+        width: 80%;
+
+    }
+
     h5 {
         max-width: 60ch;
         width: 50%;
@@ -253,8 +258,13 @@ a {
     }
 
     a {
-        width: 80%;
+        width: 150%;
         text-align: center;
+    }
+
+
+    .closer {
+        width: 100%;
     }
 
     .bigbluebox {
