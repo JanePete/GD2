@@ -26,6 +26,7 @@
 
 img {
     width: 250px;
+    margin: 40px;
 }
 
 .box {
@@ -152,6 +153,11 @@ h4 {
     margin: 10px;
 }
 
+.unbold {
+
+    font-weight: normal;
+}
+
 h5 {
     font-family: helvetica;
     font-weight: normal;
@@ -160,7 +166,8 @@ h5 {
     text-align: left;
     position: relative;
     max-width: 37ch;
-    margin: 10px;
+    margin-left: 50px;
+    margin-top: 0px;
 }
 
 div.container {
