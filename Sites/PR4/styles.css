@@ -19,6 +19,10 @@
     opacity: 0.59;
 }
 
+img {
+    max-width: 100px;
+}
+
 .container {
     width: 375px;
     height: 810px;
