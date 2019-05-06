@@ -25,7 +25,7 @@ img {
 
 .container {
     width: 375px;
-    height: 810px;
+    height: relative;
     background: #DEEDFC
 }
 
@@ -97,6 +97,15 @@ h3 {
     max-width: 37ch;
 }
 
+h4 {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+    max-width: 37ch;
+}
 
 div.container {
     padding-top: 50px;
