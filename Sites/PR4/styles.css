@@ -1,3 +1,9 @@
+@media {
+    min-width: 375px;
+    max-width: 12450px;
+}
+
+
 .clearfix::before,
 .clearfix::after {
     content: ' ';
@@ -112,10 +118,15 @@ label {
 }
 
 .submit {
-    background-color: black;
-    color: white;
-    width: 100px;
-    height: 30px
+    background-color: #DEEDFC;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-family: helvetica;
+    font-size: 16px;
+    position: relative;
+    letter-spacing: 1.5px;
+
 }
 
 h2 {
