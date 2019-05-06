@@ -237,7 +237,6 @@ a {
     h2 {
         font-size: 18px;
         letter-spacing: 1.5px;
-
     }
 
     h3 {
@@ -263,6 +262,7 @@ a {
     }
 
     h5 {
+        margin-left: 40%;
         font-size: 16px;
         line-height: 22px;
     }
@@ -285,7 +285,6 @@ a {
     h2 {
         font-size: 26px;
         letter-spacing: 2.5px;
-
     }
 
     h3 {
@@ -321,11 +320,6 @@ a {
         width: 40%;
     }
 
-    h5 {
-        max-width: 60ch;
-        width: 50%;
-        margin-left: 40%;
-    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -336,6 +330,7 @@ a {
     }
 
     h5 {
+        margin-left: 40%;
         font-size: 18px;
         line-height: 22px;
     }
@@ -388,11 +383,6 @@ a {
         width: 40%;
     }
 
-    h5 {
-        max-width: 60ch;
-        width: 50%;
-        margin-left: 40%;
-    }
 }
 
 @media screen and (min-width:1280px) {
@@ -403,6 +393,7 @@ a {
     }
 
     h5 {
+        margin-left: 40%;
         font-size: 19px;
         line-height: 22px;
     }
@@ -427,12 +418,6 @@ a {
         line-height: 32px;
     }
 
-    h5 {
-        max-width: 60ch;
-        width: 50%;
-        margin-left: 40%;
-    }
-
     img {
         margin-left: 40%;
         width: 40%;
@@ -454,7 +439,6 @@ a {
         width: 150%;
         text-align: center;
     }
-
 
     .closer {
         width: 100%;
