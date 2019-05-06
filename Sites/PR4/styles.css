@@ -173,7 +173,7 @@ h4 {
 .bigbluebox {
     margin: 20px;
     width: 350px;
-    height: 580px;
+    height: relative;
     background: #DEEDFC;
     position: relative;
 }
@@ -210,7 +210,6 @@ a {
 
 @media screen and (max-width:375px) {
     .containerwhite {
-
         width: 100%;
         height: 100%;
     }
@@ -232,39 +231,47 @@ a {
 
     h2 {
         font-size: 18px;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
+
     }
 
     h3 {
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 18px;
     }
 
     a {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 18px;
     }
+
+
 }
 
-
-@media screen and (min-width: 500px) {
-    h2 {
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
-
-    h3 {
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    a {
-        font-size: 18px;
-        line-height: 22px;
-    }
-}
 
 
 @media screen and (min-width: 800px) {
+
+    .containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
     h2 {
         font-size: 26px;
         letter-spacing: 2.5px;
@@ -281,14 +288,79 @@ a {
         line-height: 22px;
     }
 
+    .bigbluebox {
+        width: 70%;
+        height: relative;
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .box {
+        margin-left: 30%;
+        width: 50%;
+    }
+
+    .bluebox {
+        margin-left: 50%;
+        width: 40%;
+    }
 }
 
+@media screen and (min-width: 1200px) {
 
+    .containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerwhite {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.containerblue {
+        width: 100%;
+        height: 100%;
+    }
+
+    h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    a {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .bigbluebox {
+        width: 70%;
+        height: relative;
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .box {
+        margin-left: 30%;
+        width: 50%;
+    }
+
+    .bluebox {
+        margin-left: 50%;
+        width: 40%;
+    }
+}
 
 @media screen and (min-width:1280px) {
 
     .containerwhite {
-
         width: 100%;
         height: 100%;
     }
@@ -310,7 +382,6 @@ a {
 
     h3 {
         width: 80%;
-
     }
 
     h5 {
@@ -346,6 +417,7 @@ a {
 
     .bigbluebox {
         width: 70%;
+        height: relative;
         text-align: center;
         margin-left: 30%;
         margin-right: 30%;
