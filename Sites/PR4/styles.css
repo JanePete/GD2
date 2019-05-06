@@ -247,22 +247,38 @@ a {
         ;
     }
 
-    img {
+    h5 {
+        max-width: 60ch;
+        width: 50%;
+        margin-left: 40%;
+    }
 
+    img {
+        margin-left: 40%;
         width: 40%;
     }
 
     .box {
+        margin-left: 30%;
         width: 50%;
     }
 
     .bluebox {
-        width: 70%;
+        margin-left: 50%;
+        width: 40%;
 
     }
 
     a {
         width: 100%;
         text-align: center;
+    }
+
+    .bigbluebox {
+
+        width: 70%;
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 }
