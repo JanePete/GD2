@@ -19,31 +19,69 @@
     opacity: 0.59;
 }
 
+.transparentblack {
+
+    color: black;
+}
+
 img {
     width: 250px;
 }
 
-.container {
+.box {
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    background: black;
+    position: relative;
+    text-align: center;
+}
+
+.scale:hover {
+    transform: scale(1.5);
+}
+
+.containerwhite {
+    width: 375px;
+    height: relative;
+    background: white;
+
+}
+
+.containerblue {
     width: 375px;
     height: relative;
     background: #DEEDFC
 }
 
-div.container {
+div.containerwhite {
     padding-top: 20px;
     padding-right: 10px;
     padding-bottom: 0px;
     padding-left: 0px;
 }
 
+div.containerblue {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
 h1 {
     width: 40%;
+    margin: 10px;
+    position: relative;
 }
 
 .bold {
     font-weight: bold;
     color: grey;
 
+}
+
+.blue {
+    opacity: 0.59;
 }
 
 .space {
@@ -80,12 +118,14 @@ h2 {
     text-align: left;
     position: relative;
     letter-spacing: 1.5px;
+    margin: 10px;
 }
 
 a {
     font-family: helvetica;
     font-size: 14px;
     line-height: 20px;
+    margin: 10px;
 }
 
 h3 {
@@ -95,6 +135,7 @@ h3 {
     text-align: left;
     position: relative;
     max-width: 37ch;
+    margin: 10px;
 }
 
 h4 {
@@ -107,6 +148,8 @@ h4 {
     position: relative;
     max-width: 37ch;
     color: white;
+    position: relative;
+    margin: 10px;
 }
 
 h5 {
@@ -117,6 +160,7 @@ h5 {
     text-align: left;
     position: relative;
     max-width: 37ch;
+    margin: 10px;
 }
 
 div.container {
