@@ -171,6 +171,17 @@ h4 {
 
 }
 
+.bigbluebox {
+
+    margin: 20px;
+
+    width: 350px;
+    height: 570px;
+    background: #DEEDFC;
+    position: relative;
+
+
+}
 
 .unbold {
 
