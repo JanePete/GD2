@@ -6,18 +6,15 @@
 
 .clearfix::after {
     clear: both;
-
 }
 
 h6 {
     color: white;
-
 }
 
 .alternate {
     font-size: 36px;
     font-family: "HelveticaNeue-Bold", "Helvetica Neue";
-
 }
 
 .transparent {
@@ -25,14 +22,12 @@ h6 {
 }
 
 .transparentblack {
-
     color: black;
 }
 
 .grey {
     color: grey;
     font-weight: normal;
-
 }
 
 img {
@@ -53,7 +48,6 @@ img {
     width: 375px;
     height: relative;
     background: white;
-
 }
 
 .containerblue {
@@ -85,7 +79,6 @@ h1 {
 .bold {
     font-weight: bold;
     color: grey;
-
 }
 
 .blue {
@@ -103,7 +96,6 @@ h1 {
     text-align: left;
     padding: 5px;
     line-height: 5px;
-
 }
 
 label {
@@ -121,7 +113,6 @@ label {
     font-size: 16px;
     position: relative;
     letter-spacing: 1.5px;
-
 }
 
 h2 {
@@ -176,22 +167,17 @@ h4 {
     background: #DEEDFC;
     position: relative;
     text-align: center;
-
 }
 
 .bigbluebox {
-
     margin: 20px;
     width: 350px;
     height: 580px;
     background: #DEEDFC;
     position: relative;
-
-
 }
 
 .unbold {
-
     font-weight: normal;
 }
 
@@ -228,7 +214,6 @@ a {
 
         width: 100%;
         height: 100%;
-
     }
 
     .containerblue {
@@ -244,7 +229,6 @@ a {
     div.containerblue {
         width: 100%;
         height: 100%;
-        ;
     }
 
     h5 {
@@ -266,19 +250,26 @@ a {
     .bluebox {
         margin-left: 50%;
         width: 40%;
-
     }
 
     a {
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
 
     .bigbluebox {
-
         width: 70%;
         text-align: center;
         margin-left: 30%;
         margin-right: 30%;
     }
 }
+
+@media screen and (max-width:375px) {
+    .containerwhite {
+        width: 100%;
+    }
+
+    .containerblue {
+        width: 100%;
+    }
