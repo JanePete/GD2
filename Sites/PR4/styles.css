@@ -42,6 +42,7 @@ img {
     background: black;
     position: relative;
     text-align: center;
+    opacity: 0.59;
 }
 
 .containerwhite {
@@ -275,11 +276,17 @@ a {
     }
 }
 
-@media screen and (max-width:375px) {
-    .containerwhite {
-        width: 100%;
+@media screen and (max-width: 1280px) {
+    h2 {
+        font-size: 26px;
     }
 
-    .containerblue {
-        width: 100%;
-    }
+
+    @media screen and (max-width:1280px) {
+        h2 {
+            font-size: 14px;
+        }
+
+        .containerblue {
+            width: 100%;
+        }
